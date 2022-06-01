@@ -568,7 +568,7 @@ footer{
     }
 
     nav>ul>li{
-        width: 150px;
+        width: 120px;
         height: 40px;
         line-height: 40px;
         background-color: #E7E1DA;
@@ -597,10 +597,6 @@ footer{
 
     /* firstview */
 
-    section{
-        max-width: 768px;
-    }
-
     .back_one{
         left: 100px;
         top: -20px;
@@ -609,13 +605,13 @@ footer{
     }
     
     .left{
-        left: 50px;
+        left: 8%;
         top: -100px;
         height: 300px;
     }
     
     .right{
-        left: 230px;
+        left: 50%;
         top: -50px;
         width: 50%;
         height: 300px;
@@ -629,7 +625,7 @@ footer{
     .quoteInner,.quoteBottom{
         width: 300px;
         height: 250px;
-        left: -100px;
+        left: -55%;
         top: 250px;
         font-size: 20px;
     }
@@ -725,7 +721,7 @@ footer{
     }
 
     .menuTop{
-        height: 245px;
+        height: 208px;
         margin-left: 100px;
     }
 
@@ -760,12 +756,14 @@ footer{
     }
 
     .spaceInner,.spaceBottom{
+        width: 200px;
         left: 30px;
         top: 250px;
         font-size: 60px;
     }
 
     .spaceTop{
+        width: 250px;
         height: 300px;
     }
 

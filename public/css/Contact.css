@@ -442,7 +442,7 @@ footer{
 
     .pic2{
         width: 30%;
-        left: 5%;
+        left: 2%;
         top: 150px;
     }
 
@@ -466,11 +466,11 @@ footer{
     }
 
     .contactInner{
-        left: -202px;
+        left: -167px;
     }
 
     .contactTop{
-        width: 100px;
+        width: 200px;
         height: 200px;
         left: 45%;
     }
@@ -478,20 +478,20 @@ footer{
     .quoteInner,.quoteBottom{
         width: 280px;
         height: 100px;
-        left: 40%;
+        left: 30%;
         top: 270px;
         font-size: 20px;
     }
 
     .quoteInner{
-        left: -20px;
-        top: -30px;
+        left: -41px;
+        top: -31px;
     }
 
     .quoteTop{
         width: 100px;
         height: 100px;
-        left: 44%;
+        left: 40%;
         top: 300px;
     }
 
