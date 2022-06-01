@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexyen.css');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: solid 1px black; */
+    font-family: 'cwTeXYen', 'Hind';
+    letter-spacing: 1px;
+    scroll-behavior: smooth;
+}
+
+.animate__fadeInUp{
+    --animate-delay: 2s;
+    --animate-duration: 3s;
+}
+
+/* nav */
+
+nav{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #E7E1DA;
+}
+
+.menuIcon{
+    display: none;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10%;
+    top: 10px;
+}
+
+.name{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    left: 13%;
+    top: 25px;
+    letter-spacing: 3px;
+}
+
+nav>ul{
+    list-style-type: none;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+}
+
+nav>ul>li{
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    margin-left: 30px;
+    text-align: center;
+    position: relative;
+}
+
+nav>ul>li>a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+li>a::after{
+    background-color: #BFAF9C;
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 2px;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.4s all;
+}
+
+li>a:hover::after{
+    width: 100%;
+}
+
+/* nav */
+
+/* firstview */
+
+section{
+    position: relative;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.pic1>img,.pic2>img,.pic3>img{
+    width: 100%;
+}
+
+.pic1{
+    width: 30%;
+    position: absolute;
+    top: 100px;
+    left: 60%;
+}
+
+.pic2{
+    width: 20%;
+    position: absolute;
+    top: 120px;
+    left: 15%;
+}
+
+.pic3{
+    width: 15%;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    z-index: -1;
+}
+
+.back1{
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    background-color: #E7E1DA;
+    width: 70%;
+    height: 600px;
+    z-index: -1;
+}
+
+.contactInner,.contactBottom{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    left: 10%;
+    top: 100px;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: white;
+    z-index: 1;
+}
+
+.contactInner{
+    position: absolute;
+    left: -97px;
+}
+
+.contactTop{
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    left: 15%;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.contactBottom{
+    color: #5F5449;
+}
+
+.quoteInner,.quoteBottom{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 500px;
+    top: 450px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.quoteInner{
+    position: absolute;
+    left: 314px;
+    top: 250px;
+}
+
+.quoteTop{
+    width: 480px;
+    height: 500px;
+    position: absolute;
+    left: 185px;
+    top: 200px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.quoteBottom{
+    color: #5F5449;
+}
+
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: #AFA193;
+    position: absolute;
+    top: 350px;
+    left: 45%;
+}
+
+.scroller{
+    position: relative;
+}
+
+.l1{
+    width: 100px;
+    height: 1px;
+    background-color: #afa193;
+    transform:rotate(-270deg);
+    color: #AFA193;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    left: 150px;
+    top: 750px;
+}
+
+.l2{
+    width: 10px;
+    height: 1px;
+    background-color: #afa193;
+    transform:rotate(-60deg);
+    position: absolute;
+    left: 198px;
+    top: 795px;
+}
+
+/* firstview */
+
+/* s2 */
+
+.s1{
+    margin-bottom: 200px;
+}
+
+.map{
+    position: absolute;
+    left: 10%;
+}
+
+.map2{
+    position: absolute;
+    left: 50%;
+}
+
+.content{
+    position: absolute;
+    left: 45%;
+    top: 50px;
+    width: 500px;
+}
+
+.title{
+    margin-bottom: 50px;
+}
+
+/* s2 */
+
+/* s3 */
+
+.s3>.content{
+    left: 15%;
+    top: 100px;
+}
+
+/* s3 */
+
+/* TOP */
+
+.gototop{
+    position: fixed;
+    right: -30px;
+    top: 850px;
+    width: 60px;
+    height: 60px;
+    background-color: #AFA193;
+    opacity: 0.5;
+    border-radius: 100%;
+    z-index: 2;
+    transition: 1s all;
+}
+
+.gototop:hover{
+    right: 0;
+    opacity: 1;
+}
+
+.fa-angle-double-up{
+    width: 40px;
+    height: 40px;
+}
+
+.gototop>a{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 22px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* TOP */
+
+/* footer */
+
+.s4{
+    margin-bottom: 900px;
+}
+
+footer{
+    background-color: #E7E1DA;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.pic_footer{
+    background-image: url(../images/space01.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 30%;
+    height: 400px;
+    position: absolute;
+    left: 55%;
+    top: -100px;
+}
+
+.pic_footer>.line{
+    left: -60%;
+    top: 200px;
+}
+
+.footerInner,.footerBottom{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    left: -300px;
+    top: 30px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: white;
+    z-index: 1;
+}
+
+.footerTop{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.footerBottom{
+    color: #5F5449;
+}
+
+.footerContent{
+    width: 50%;
+    height: 100px;
+    position: absolute;
+    left: 20%;
+    top: 200px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.footerContent>.logo{
+    position: absolute;
+    left: -60px;
+    top: -5px;
+}
+
+.fa-brands,.fa-copyright{
+    color: #5F5449;
+}
+
+/* footer */
+
+@media screen and (max-width: 768px){
+    
+    /* nav */
+
+    header{
+        width: 100%;
+        height: 250px;
+    }
+
+    nav>ul{
+        display: none;
+        top: 60px;
+        z-index: 999;
+    }
+
+    nav>ul>li{
+        width: 150px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #E7E1DA;
+        text-align: center;
+    }
+
+    .name{
+        left: 20%;
+    }
+
+    .menuIcon{
+        display: block;
+        margin-left: auto;
+        width: 10%;
+        height: 60px;
+    }
+
+    .menuIcon>a{
+        text-align: center;
+        text-decoration: none;
+        line-height: 60px;
+        color: black;
+    }
+
+    /* nav */
+
+    /* firstview */
+
+    section{
+        height: 600px;
+    }
+
+    .s1{
+        margin-top: -200px;
+    }
+
+    .pic1>img,.pic2>img,.pic3>img{
+        width: 100%;
+    }
+
+    .pic1{
+        width: 50%;
+        top: 100px;
+        left: 45%;
+    }
+
+    .pic2{
+        width: 30%;
+        left: 5%;
+        top: 150px;
+    }
+
+    .pic3{
+        width: 25%;
+        top: 300px;
+        left: 40%;
+    }
+
+    .back1{
+        top: 150px;
+        height: 200px;
+        z-index: -1;
+    }
+
+    .contactInner,.contactBottom{
+        width: 300px;
+        left: 3%;
+        top: 100px;
+        font-size: 60px;
+    }
+
+    .contactInner{
+        left: -202px;
+    }
+
+    .contactTop{
+        width: 100px;
+        height: 200px;
+        left: 45%;
+    }
+
+    .quoteInner,.quoteBottom{
+        width: 280px;
+        height: 100px;
+        left: 40%;
+        top: 270px;
+        font-size: 20px;
+    }
+
+    .quoteInner{
+        left: -20px;
+        top: -30px;
+    }
+
+    .quoteTop{
+        width: 100px;
+        height: 100px;
+        left: 44%;
+        top: 300px;
+    }
+
+    .line{
+        left: 75%;
+        top: 400px;
+    }
+
+    .l1{
+        height: 0.5px;
+        left: -20px;
+        top: 450px;
+    }
+
+    .l2{
+        height: 0.5px;
+        left: 27px;
+        top: 495px;
+    }
+
+    /* firstview */
+
+    /* s2 */
+
+    .s1{
+        margin-bottom: 0px;
+    }
+
+    .map,.map2{
+        width: 90%;
+        height: 300px;
+        left: 5%;
+    }
+
+    .content{
+        left: 10%;
+        top: 200px;
+        width: 320px;
+    }
+
+    .title{
+        margin-bottom: 50px;
+    }
+
+    /* s2 */
+
+    /* s3 */
+
+    .s2{
+        margin-bottom: 200px;
+    }
+
+    .s3>.content{
+        left: 15%;
+        top: 400px;
+    }
+
+    /* s3 */
+
+    /* TOP */
+
+    .gototop{
+        top: 550px;
+    }
+
+    /* TOP */
+
+    /* footer */
+
+    .s3{
+        margin-bottom: 300px;
+    }
+    
+    footer{
+        height: 300px;
+    }
+    
+    .pic_footer{
+        width: 40%;
+        height: 250px;
+        top: -50px;
+    }
+    
+    .pic_footer>.line{
+        width: 50px;
+        left: -60%;
+        top: 150px;
+    }
+    
+    .footerInner,.footerBottom{
+        width: 200px;
+        height: 100px;
+        left: -100px;
+        top: 30px;
+        font-size: 20px;
+    }
+    
+    .footerTop{
+        width: 100px;
+        height: 200px;
+    }
+    
+    .footerContent{
+        top: 200px;
+        left: 15%;
+        font-size: 12px;
+    }
+    
+        /* footer */
+}
