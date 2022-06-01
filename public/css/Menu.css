@@ -469,7 +469,7 @@ footer{
     }
 
     .menuInner{
-        left: -48px;
+        left: -98%;
         top: 0;
     }
 
@@ -521,6 +521,10 @@ footer{
     .pic1,.pic2,.pic3,.pic4{
         margin-top: 50px;
         margin-left: 10px;
+    }
+
+    .s2 p{
+        margin-left: 10%;
     }
 
     .button{

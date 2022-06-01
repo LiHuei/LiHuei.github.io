@@ -245,7 +245,7 @@ section{
 
 .text{
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 10%;
 }
 
 .button{
@@ -629,6 +629,10 @@ footer{
         top: 250px;
         font-size: 20px;
     }
+
+    .quoteInner{
+        left: -58%;
+    }
     
     .quoteTop{
         width: 200px;
@@ -667,13 +671,13 @@ footer{
     }
 
     .title{
-        margin-left: 20px;
+        margin-left: 10%;
     }
 
     .text{
         margin-top: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 15%;
+        margin-right: 10%;
     }
 
     .button{
@@ -772,11 +776,13 @@ footer{
     }
 
     .text_left{
-        left: 30%;
+        left: 20%;
+        margin-right: 10%;
     }
 
     .text_right{
-        left: 30%;
+        left: 20%;
+        margin-right: 10%;
         top: 300px;
     }
 
