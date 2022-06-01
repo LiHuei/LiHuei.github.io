@@ -158,13 +158,17 @@ section{
     position: absolute;
     width: 500px;
     height: 250px;
-    left: -100px;
+    left: -15%;
     top: 450px;
     font-size: 40px;
     letter-spacing: 3px;
     color: white;
     text-align: center;
     z-index: 1;
+}
+
+.quoteInner{
+    left: -21%;
 }
 
 .quoteTop{
@@ -755,7 +759,7 @@ footer{
     .pic2{
         width: 50%;
         height: 250px;
-        left: 250px;
+        left: 50%;
         top: 300px;
     }
 
